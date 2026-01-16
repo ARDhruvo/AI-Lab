@@ -21,6 +21,7 @@ for line in f1:
     print("Name:", name)
     print("Department:", dept)
     print("CGPA:", cgpa)
+    index += 1
 f1.close()
 
 f1 = open("students.txt", "w")
